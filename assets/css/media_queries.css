@@ -1,0 +1,24 @@
+@media(max-width:920px) {
+
+    header {
+
+        padding: 60px !important;
+    }
+    .nav-links {
+        display: none;
+    }
+
+    .fa-bars {
+        display: flex !important;
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+@media(max-width:768px) {
+
+    header {
+        padding: 40px !important;
+    }
+    
+}
