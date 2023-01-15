@@ -4,6 +4,7 @@
 body {
     
     font-family: 'Roboto', sans-serif;
+    overflow-x:hidden;
 }
 
 header {
@@ -22,14 +23,285 @@ header {
 .fa-bars {
     display: none;
 }
+ /* INTRODUCTION SECTION */
+
+
+.introduction {
+    padding: 113px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+.intro-left-side {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    min-width: 715px;
+    
+}
+
+.intro-left-side h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 34px;
+
+}
+
+.intro-left-side span {
+
+    color: #FF8A56;
+    
+}
+
+.intro-left-side p {
+
+    font-size: 22px;
+    color: #666666;
+    
+
+}
+
+.book-a-call {
+    margin-top: 34px;
+}
+
+.book-a-call button {
+    width: 151px;
+    height: 58px;
+    background-color: #222;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.book-a-call a {
+    margin: 10px;
+    text-decoration: none;
+    color: #222;
+}
+
+.intro-right-side {
+    margin-left: 190px;
+    min-width: 450px;
+}
+
+/*Trusted-by section */
+
+.trusted-by h6 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.partner-companies {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+
+/* SERVICES */
+
+.services {
+    padding-top: 76px;
+}
+
+.services h1 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 117px;
+}
+
+.services h6 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 700;
+    color: #FF5E69;
+    
+}
+
+.services-cards {
+    display: flex;
+    justify-content: space-around;
+    
+    padding-right: 171px;
+    flex-wrap: wrap;
+    
+}
+
+.services-cards h2 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 39px;
+}
+
+.services-cards p {
+    color: #666666;
+    padding-top: 25px;
+}
+
+.service-card {
+min-width: 285px;
+
+}
+
+
+.services-cards ul {
+    list-style-position: inside;
+    padding-top: 21px;
+    font-weight: 700;
+}
+
+/* PROJECTS-SECTION*/
+.projects-section {
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding: 40px;
+
+}
+
+.projects-section h6 {
+  color: #B16CEA;
+  font-size: 22px;
+  font-weight: 700;
+
+}
+
+.projects-section p {
+    font-size: 54px;
+    font-weight: 700;
+    padding-bottom: 70px;
+
+}
+
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 113px;
+}
+
+.view-all-projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 312px;
+}
+
+.view-all-projects button {
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+    
+}
+
+.card-section {
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 113px;
+}
+
+.card-section .card {
+    min-width: 200px;
+}
+
+.card .card-bottom {
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 10px;
+}
+
+.card .card-bottom h5 {
+    color: #3C46FF;
+    font-weight: 700;
+
+}
+.card .card-bottom h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card .card-bottom a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+}
+
+/* BLOGS SECTION*/
+
+.blogs {
+    background: #222;
+    color: #fff;
+    padding: 40px;
+    margin-top: -200px;
+    padding-top: 240px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.blogs .left-side {
+    padding-left: 113px;
+    width: 30%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs .left-side h4 {
+    color: #FFA84B;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+.blogs .left-side h1 {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.blogs a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 
 
+.blogs .right-side {
+    width: 40%;
+    padding-right: 113px;
+    min-width: 400px;
+}
 
+.blogs .right-side h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
 
+.blog {
+    padding: 40px 80px 40px 0;
+    border-bottom: 1px solid #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
 
-
-
-
+.blogs a {
+    text-decoration: none;
+}
 
 
